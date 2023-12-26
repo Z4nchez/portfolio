@@ -1,0 +1,74 @@
+.Proyectos{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    scroll-snap-align: center;
+    position: relative;
+}
+.back{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.back2{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bar{
+    width: 1px;
+    height: 30%;
+    position: relative;
+    top: 20%;
+}
+.proyectosCont{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5%;
+}
+.titulo{
+    height: 8%;
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+    color: white;
+    position: relative;
+}
+.pr{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    position: relative;
+    gap: 2px;
+}
+.pr::-webkit-scrollbar{
+    display: none;
+}
+@media screen and ((max-width: 1200px ) or (aspect-ratio < 12/10) ){
+    .titulo{
+        height: 8%;
+        width: 200px;
+        display: flex;
+        font-size: 0.8rem;
+    }
+}
