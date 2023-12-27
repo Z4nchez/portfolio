@@ -1,13 +1,14 @@
 .Footer{
+    margin: 0;
+    padding: 0;
     position: fixed;
-    width: 100vw;
-    height: 10vh;
-    top: 90vh;
+    width: 100%;
     z-index: 999;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     --altoF: 2;
+    overflow-x: hidden;
 }
 .hModuleB{
     width: calc(100% - 200px);

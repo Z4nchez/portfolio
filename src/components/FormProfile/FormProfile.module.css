@@ -38,6 +38,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    overflow-y: auto;
 }
 @media screen and ((max-width: 800px ) or (aspect-ratio < 12/10) ){
     .FormProfile{
