@@ -27,7 +27,7 @@
 }
 .fondo {
   width: 100%;
-  height: 100%;
+  height: 400%;
   object-fit: cover;
 }
 .blur {
@@ -51,7 +51,7 @@
   position: fixed;
   -o-object-fit: cover;
      object-fit: cover;
-  background-color: rgba(134, 162, 204, 0.3);
+  background-color: rgba(134, 162, 204, 0.5);
   -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
           box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   z-index: 2;
@@ -60,7 +60,7 @@
   top: 0;
   left: 0;
   background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(40px);
+  backdrop-filter: blur(25px);
   width: 100%;
   height: 100%;
   overflow-x: hidden;
