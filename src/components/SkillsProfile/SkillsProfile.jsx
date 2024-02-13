@@ -51,6 +51,10 @@ function SkillsProfile() {
                 <img src="vercel.svg" alt="Vercel" />
                 <p className={styles.tituloItem}>Vercel</p>
             </div>
+            <div className={styles.itemCont}>
+                <img src="nextjs.svg" alt="Next.js" />
+                <p className={styles.tituloItem}>Next.js</p>
+            </div>
         </div>
     </motion.div>
   )
