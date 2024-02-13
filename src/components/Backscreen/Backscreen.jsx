@@ -13,7 +13,7 @@ function Backscreen() {
     <>
       <div className={styles.hero} >
         <div className={styles.contVideo} >
-          <video className={styles.fondo} src="cube.mp4" autoPlay muted loop ></video>
+          <video className={styles.fondo} src="cube.webm" autoPlay muted loop ></video>
         </div>
       </div>
       {menuH === true && <MenuH></MenuH>}     
