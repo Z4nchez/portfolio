@@ -6,6 +6,6 @@ html, .App{
   display: flex;
   flex-direction: column;
   scroll-behavior: smooth;  
-  scroll-snap-type: y mandatory;
+  /*scroll-snap-type: y mandatory;*/
 }
   

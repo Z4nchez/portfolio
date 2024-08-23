@@ -10,10 +10,12 @@ function About() {
 
   const [infoState, setInfoState] = useState("A")
   const ref = useRef(null);
+  const ref0 = useRef(null)
   const isInView = useInView(ref, { once: false });
+  const isInView0 = useInView(ref0, { once: false });
 
   return (
-    <div className={styles.About} id='iabout' >
+    <div className={styles.About} id='iabout' style={{background: isInView0 ? "rgba(0, 0, 0, 0)" : "rgba(0, 0, 0, 1)", transition: "all 1s ease-out"}} ref={ref0}>
       <motion.div className={styles.module1} style={{height: isInView ? "calc(10% * var(--alto))" : "calc(4% * var(--alto))", opacity: isInView ? 1 : 0, transition: "all 0.5s ease-out"}}>
         <div className={styles.profileCont} >
           <div className={styles.title} ref={ref}>Acerca de mi</div>
